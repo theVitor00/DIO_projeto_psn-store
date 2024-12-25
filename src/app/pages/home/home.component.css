@@ -7,5 +7,45 @@
 	justify-content: space-around;
 	align-items: baseline;
 	flex-wrap: wrap;
-	border: 1px solid green;
 }
+/*
+.home__container .featured {
+	position: fixed;
+	width: 90%;
+	margin: auto;
+	padding-top: 50px;
+	display: flex;
+	z-index: 999;
+
+	justify-content: space-around;
+	align-items: baseline;
+	flex-wrap: wrap;
+	border-bottom: 4px solid whitesmoke;
+}
+*/
+.teste__container {
+	width: 90%;
+	margin: auto;
+	padding-top: 50px;
+	display: flex;
+
+	justify-content: space-around;
+	align-items: baseline;
+	flex-wrap: wrap;
+}
+/*
+.teste {
+	width: 90%;
+	margin: auto;
+	padding-top: 50px;
+	display: flex;
+	position: absolute;
+	top: 650px;
+
+	justify-content: space-around;
+	align-items: baseline;
+	flex-wrap: wrap;
+	overflow: hidden;
+	background-color: white;
+}
+	*/

@@ -1,27 +1,31 @@
-# PsnStore
+# Sobre o projeto:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.9.
+Projeto desenvolvido como parte do curso de Angular da DIO. Partindo de uma estrutura construída com ajuda do instrutor, resolvi adicionar mais algun conteúdo,
+bem como um rodapé fixo em todas as paginas, com seu conteúdo sendo gerado por um `simnulador de dados de servidor` chamado `menuData`,  
+localizado o diretório `app/data`.
 
-## Development server
+Outra parte adicionada foi responsividade. Embora não perfeita, devido ao meu domínio deficitário de CSS, é uma responsividade que funciona, afetando principalmente  
+o menu de navegação e o rodapé. Adicionei também icones das redes sociais através de uso básico do `FontAwesome`, com um menu tipo hambúrguer que surge em dispositivos  
+de tela pequena
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## PsnStore
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Este projeto foi gerado utilizando [Angular CLI](https://github.com/angular/angular-cli) versão 17.3.9.
+
+## Servidor de desenvolvimento
+
+Execute `ng serve` para rodar um servidor de desenvolvimento. Vá para `http://localhost:4200/`. A aplicação irá recarregar automaticamente se vocec modificar qualquer um dos arquivos fonte.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Execute `ng build` para buildar o projeto. Os arquivos de build serão armazenado no diretório `dis/`.
 
-## Running unit tests
+## Testes
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Por se tratar de um projeto de composição de página e utilização das ferramentas básicas do Angular, todos os arquivos e procedimentos relacionados a testes foram removidos.
 
-## Running end-to-end tests
+## Ajuda adicional
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Para obter mais ajuda referente ao Angular CLI utilize `ng help` ou consulte a página: [Angular CLI Overview and Command Reference](https://angular.io/cli).

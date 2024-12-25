@@ -1,0 +1,52 @@
+<div class="footer__container">
+
+	<div class="footer__area">
+
+		<div class="footer__logo">
+			<img [src]=[footerLogo] alt="Playstation footer logo">
+		</div>
+
+		<nav class="footer__navigation__area">
+			<app-menu-footer *ngFor="let item of menuItems"
+				[title]="item.title"
+				[items]="item.items"
+			></app-menu-footer>
+
+			<div class="footer__social-media">
+				<h3>Conectar</h3>
+				<div class="footer__social-media__items">
+					<ul class="icons">
+						<li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+						<li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+						<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+					</ul>
+					<ul>
+						<li><a href="#">Aplicativo iOS</a></li>
+						<li><a href="#">Aplicativo Android</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="copyright">
+			<div class="copyright-image__container">
+				<img [src]=[sonyLogo] alt="Sony footer logo" class="sony">
+				<img [src]="[esrb]" alt="ESRB Certification brand" class="esrb">
+			</div>
+
+			<p>© 2024 Sony Interactive Entertainment LLC</p>
+			<p>Todo o conteúdo, títulos de jogos, nomes comerciais e/ou designações comerciais, marcas comerciais, arte e imagens associadas são marcas registradas e/ou material sob direitos autorais dos seus respectivos proprietários. Todos os direitos reservados. <a href="#">Mais informações</a></p>
+		</div>
+
+		<div class="privacy-police">
+			<ul>
+				<li><a href="#">Bases jurídicas</a><span>|</span></li>
+				<li><a href="#">Política de privacidade</a><span>|</span></li>
+				<li><a href="#">Termos de uso do website</a><span>|</span></li>
+				<li><a href="#">Mapa do site</a><span></span></li>
+			</ul>
+		</div>
+
+	</div>
+</div>

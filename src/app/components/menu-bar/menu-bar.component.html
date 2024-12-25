@@ -7,11 +7,23 @@
 			height="32px"
 		>
 	</div>
-	<div class="menu-bar__item">
+	<div [ngClass]="{'show': isOpen, 'hide': !isOpen}" class="menu-bar__item">
 		<ul>
-			<li><a href="">YOUTUBE</a></li>
-			<li><a href="">LINKEDIN</a></li>
-			<li><a href="">GITHUB</a></li>
+			<li><a href="https://youtube.com"><i class="fa-brands fa-youtube"></i>YouTube</a></li>
+			<li><a href="#"><i class="fa-brands fa-linkedin"></i>LinkedIn</a></li>
+			<li><a href="#"><i class="fa-brands fa-github"></i>GitHub</a></li>
 		</ul>
+	</div>
+	<div class="menu-bar__mobile">
+		<button
+			(click)="toggleMenu()"
+			class="menu-bar__icon__mobile"
+		>
+			<i
+				[ngClass]="{'fa-xmark': isOpen, 'fa-bars': !isOpen}"
+				 class="menu-toggle fa-solid"
+			>
+			</i>
+		</button>
 	</div>
 </div>

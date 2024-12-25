@@ -1,4 +1,43 @@
-<div class="home__container">]
-	<p>home works!</p>
-	<app-card></app-card>
+<div class="home__container">
+		<app-card
+			gameCover="../../../assets/bt-4.jpg"
+			gameLabel="DIGITAL"
+			gamePrice="R$99,99"
+			gameType="PS3 PS4 PS-VITA"
+		>
+		</app-card>
+
+		<app-card
+			gameCover="../../../assets/bt-5.jpg"
+			gameLabel="EXCLUSIVE"
+			gamePrice="R$249,00"
+			gameType="PS4 PS5"
+		>
+		</app-card>
+
+		<app-card
+			gameCover="../../../assets/ac-cover.jpg"
+			gameLabel="MULTIPLATFORM"
+			gamePrice="R$149,00"
+			gameType="PS3 PS4 PS5 PS-VITA"
+		>
+		</app-card>
+
+		<app-card
+			gameCover="../../../assets/god-of-war-ragnarok.jpg"
+			gameLabel="MULTIPLATFORM"
+			gamePrice="R$299,99"
+			gameType="PS4 PS5"
+		>
+		</app-card>
+
+
+		<app-card *ngFor="let game of card"
+			[gameCover]="game.image"
+			[gameLabel]="game.label"
+			[gamePrice]="game.price"
+			[gameType]="game.type"
+		></app-card>
+
 </div>
+
